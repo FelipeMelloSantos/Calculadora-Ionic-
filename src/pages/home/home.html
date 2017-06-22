@@ -1,0 +1,81 @@
+
+
+<ion-header>
+  <ion-navbar color="vermelho">
+    <ion-title> <ion-icon name="calculator"></ion-icon> Calculadora </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="number" [(ngModel)]="number1" placeholder="Numero 1"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="number" [(ngModel)]="number2" placeholder="Numero 2"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+   <ion-grid>
+  <ion-row >
+
+     <button ion-button  (click)="soma()">+</button>
+     <button ion-button  (click)="subtracao()">-</button>
+     <button ion-button  (click)="divisao()">/</button>
+     <button ion-button  (click)="multiplicacao()">*</button>
+     <button ion-button  (click)="raiz()">√</button>
+     <button ion-button  (click)="potencia()">^</button>
+  </ion-row>
+
+</ion-grid>
+
+<p></p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<ion-item>
+  <ion-icon name="calculator" item-start></ion-icon>
+  Participantes
+  <ion-badge item-end>5</ion-badge>
+</ion-item>
+
+<ion-fab left bottom>
+    <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>
+    <ion-fab-list side="top">
+      Felipe
+      <button ion-fab><ion-icon name="contact"></ion-icon></button>
+      Fernando
+      <button ion-fab><ion-icon name="contact"></ion-icon></button>
+      Edmilson
+      <button ion-fab><ion-icon name="contact"></ion-icon></button>
+      Danilo
+      <button ion-fab><ion-icon name="contact"></ion-icon></button>
+      Wendel
+      <button ion-fab><ion-icon name="contact"></ion-icon></button>
+
+    </ion-fab-list>
+  </ion-fab>
+
+
+
+</ion-content>
