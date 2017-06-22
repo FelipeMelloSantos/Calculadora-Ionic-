@@ -58,6 +58,20 @@ number3 = 0;
 
  }
 
+ seno(){
+
+  this.number3 = eval("Math.sin("+this.number1+")");
+   this.showAlert(this.number3);
+
+ }
+
+ coseno(){
+
+  this.number3 = eval("Math.cos("+this.number1+")");
+   this.showAlert(this.number3);
+
+ }
+
 
  potencia(){
 
